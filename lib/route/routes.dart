@@ -19,13 +19,11 @@ class Routes {
   //   Navigator.pop(context);
   // }
 
-
-static  final  router = GoRouter(
+  static final router = GoRouter(
     routes: <GoRoute>[
       GoRoute(
         path: RouteName.splash,
-        builder: (BuildContext context, GoRouterState state) =>
-        const SplashScreen(),
+        builder: (BuildContext context, GoRouterState state) => SplashScreen(),
       ),
       GoRoute(
         path: RouteName.homeScreen,
